@@ -14,9 +14,9 @@ body {
     color: #b8c1ec;
     background: #232946;
 }
-
+@media screen and (max-width: 1160px){
     
-
+}
 h1,
 h2,
 h3 {
@@ -129,37 +129,24 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
- @media screen and (max-width: 768px){
-    body {
-        color: #b8c1ec;
-        background: #232946;
-    }
-
- 
-     .container { 
-        width: 100%;
+@media screen and (max-width: 768px){
+    .container {
+        width: auto;
         margin: 0 auto;
         padding: 0 20px;
     }
-    
-    }
+}
 
- @media screen and (max-width: 480px){
-
-    body {
-        color: #b8c1ec;
-        background: #232946;
-    }
+@media screen and (max-width: 768px){
     .container {
-        width: 100%;
+        width: auto;
         margin: 0 auto;
         padding: 0 20px;
     }
 
     h1 {
         margin-bottom: 3rem;
-        font-size: 2.0rem;
+        font-size: 2rem;
     }
     
     h2 {
@@ -174,7 +161,6 @@ img {
     }
 
     p {
-        font-size: 0.5rem;
+        font-size: 0.5;
     }
-
 }
